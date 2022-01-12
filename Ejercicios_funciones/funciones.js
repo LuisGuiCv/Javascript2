@@ -12,7 +12,7 @@ function costo(transaccion,tarifa,impuesto){
     alert("el costo total es: "+total);
 };
 
-
+costo();
 
 function nombres(){
     var y = new Date().getFullYear();
@@ -28,7 +28,7 @@ function nombres(){
     console.log("Welcome: "+nombre1+" your age is: "+edad1+"."+" Welcome: "+nombre2+" your age is: "+edad2+"."+" Welcome: "+nombre3+" your age is: "+edad3+".");
 };
 
-
+nombres();
 function grade(){
     var grade=parseInt(prompt("Ingresa la nota: "));
     if(grade>=5&&grade<=8){
@@ -44,5 +44,5 @@ function grade(){
          alert(false); 
     }
 }
-grade();
 
+grade();
